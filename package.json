@@ -1,13 +1,24 @@
 {
-  "name": "starter-micro-api",
+  "name": "twitch-chatbot-nodejs",
   "version": "1.0.0",
-  "description": "Cyclic.sh micro api starter",
-  "main": "index.js",
+  "description": "Experimental AI Chatbot",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "Twitch",
+    "WonkoBot",
+    "magicgadra3",
+    "chat",
+    "bot"
+  ],
+  "author": "Wonkologist_TTV",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1",
+    "tmi.js": "^1.8.5"
   }
 }
